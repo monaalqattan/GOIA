@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e1e1e!important;
+    background-image: url('../images/Asset\ yellow.png');
+}
+form {
+    border: 3px  #f1f1f1;
+    border-radius: 60px;
+    box-shadow: 10px 10px 5px black; 
+    background-color: #e20113;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 25%;
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 60px;
+  }
+  button {
+    background-color: #016d56;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 60px!important;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  img.goia {
+    width: 30%;
+  }
+  .container {
+    padding: 16px;
+  }
